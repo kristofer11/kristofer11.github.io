@@ -81,8 +81,8 @@ header {
 }
 
 .sec-2-images img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     object-fit:cover;
     border: 4px solid #3882f6;
     border-radius: 10px;
