@@ -1,0 +1,163 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    min-width: none;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+header {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.hero-image {
+    width: auto;
+    max-height: 700px;
+    min-width: none;
+    border-radius: 6px;
+}
+
+
+.link-div {
+    margin-left: auto;
+}
+
+.link-list {
+    display: flex;
+    list-style-type: none;
+    margin-left: auto;
+    gap: 20px;
+}
+
+.sec-1 {
+    display: flex;
+    background: #1f2937;
+    padding: 100px 50px;
+    gap: 50px;
+}
+
+.sec-1-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero-secondary-text {
+    color: #e5e7eb;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    color: #f9faf8; 
+    width: 100px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.sec-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.sec-2-images {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.sec-2-images img {
+    width: 200px;
+    height: 200px;
+    object-fit:cover;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.sec-2-label {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding: 25px;
+}
+
+.sec-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 75px;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    max-width: 800px;
+    font-size: 36px;
+}
+
+.attribution {
+    text-align: right;
+}
+
+.sec-4 {
+    display: flex;
+    background-color: #3882f6;
+    padding: 40px 100px;
+    align-items: center;
+    gap: 150px;
+    border-radius: 8px;
+    margin: 75px 20px;
+}
+
+.sec-4-right {
+    display: flex;
+    justify-self: center;
+}
+
+.sec-4-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 0;
+}
+
+.main-call-text {
+    color: #f9faf8;
+    font-size: 30px;
+}
+
+.sub-call-text {
+    color: #f9faf8;
+}
+
+.action-button {
+    background: #3882f6;
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
+    padding: 5px;
+    width: 100px;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 15px;
+    text-align:center;
+    padding: 25px;
+}
